@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Label" Font-Size="XX-Large">Test Github Repository</asp:Label>
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="Label" Font-Size="XX-Large">This Label from visual studio</asp:Label>
         </div>
     </form>
 </body>
