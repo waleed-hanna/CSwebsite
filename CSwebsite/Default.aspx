@@ -15,7 +15,7 @@
             <br />
             <asp:Label ID="Label3" runat="server" Text="Label" Font-Size="XX-Large">This Label from Github</asp:Label>
             <br />
-            <asp:Label ID="Label4" runat="server" Text="Label" Font-Size="XX-Large">This Label from Github</asp:Label>
+            
         </div>
     </form>
 </body>
