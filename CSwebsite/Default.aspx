@@ -19,8 +19,7 @@
             <br />
             <asp:Label ID="Label4" runat="server" Text="Label" Font-Size="Medium">You can type numbers only</asp:Label>
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            
-            <ajaxToolKit:FilteredTextBoxExtender ID="filter" runat="server" FilterType="Numbers" TargetControlID="TextBox1" />
+            <ajaxToolKit:FilteredTextBoxExtender ID="filter" runat="server" FilterType="Numbers , Custom" ValidChars="٠١٢٣٤٥٦٧٨٩" TargetControlID="TextBox1" />
         </div>
     </form>
 </body>
